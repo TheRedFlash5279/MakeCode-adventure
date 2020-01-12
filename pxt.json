@@ -1,19 +1,21 @@
 {
     "name": "Adventure I",
-    "dependencies": {
-        "device": "*",
-        "animation": "*",
-        "color-coded-tilemap": "*"
-    },
-    "description": "",
     "files": [
+        ".vscode/settings.json",
+        ".vscode/tasks.json",
+        "README.md",
         "main.blocks",
         "main.ts",
-        "README.md",
-        null
+        "test.ts",
+        "tsconfig.json"
     ],
+    "dependencies": {
+        "device": "*",
+        "color-coded-tilemap": "*",
+        "animation": "*"
+    },
     "preferredEditor": "blocksprj",
-    "testFiles": [
-        "test.ts"
+    "supportedTargets": [
+        "arcade"
     ]
 }
